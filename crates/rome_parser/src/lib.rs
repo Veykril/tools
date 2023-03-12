@@ -90,7 +90,7 @@
 //!
 //!  p.expect(T![if]);
 //!  p.expect(T!['(']);
-//!  parse_any_expression(p).or_add_diagnostic(p, js_parse_errors::expeced_if_statement);
+//!  parse_any_expression(p).or_add_diagnostic(p, js_parse_errors::expected_if_statement);
 //!  p.expect(T![')']);
 //!  parse_block_statement(p).or_add_diagnostic(p, js_parse_errors::expected_block_statement);
 //! // the else block is optional, handle the marker by using `ok`
